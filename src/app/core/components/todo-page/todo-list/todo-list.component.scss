@@ -1,0 +1,24 @@
+.todo-toggle-button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Get the element to line up nicely */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  border-radius: 12px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.todo-toggle-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.todo-toggle-button:active {
+  background-color: #3e8e41; /* Even darker green when clicked */
+  box-shadow: 0 5px #666; /* Add a shadow */
+  transform: translateY(4px); /* Move the button down a bit */
+}
